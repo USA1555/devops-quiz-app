@@ -1,0 +1,266 @@
+[
+  {
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "Which statement best describes DevOps culture?",
+    "options": [
+      "Strict separation between development and operations",
+      "Collaboration and shared responsibility across teams",
+      "No automation or tooling",
+      "Only manual testing is allowed"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps focuses on collaboration and shared responsibility to improve delivery speed and reliability."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "What is a common goal of DevOps?",
+    "options": [
+      "Increase handoffs between teams",
+      "Reduce deployment frequency",
+      "Shorten feedback loops",
+      "Avoid monitoring systems"
+    ],
+    "answerIndex": 2,
+    "explanation": "Short feedback loops help teams detect problems early and improve continuously."
+  },
+  {
+    "id": "Q3",
+    "topic": "DevOps Culture",
+    "question": "Which practice supports continuous improvement?",
+    "options": [
+      "Postmortems and retrospectives",
+      "Avoiding metrics",
+      "Delayed testing",
+      "Removing code reviews"
+    ],
+    "answerIndex": 0,
+    "explanation": "Retrospectives and postmortems help teams learn from failures and successes."
+  },
+  {
+    "id": "Q4",
+    "topic": "DevOps Culture",
+    "question": "What does 'shift left' usually mean?",
+    "options": [
+      "Move tasks later in the lifecycle",
+      "Move testing and security earlier",
+      "Only test in production",
+      "Remove CI pipelines"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shift left means addressing quality and security earlier in development."
+  },
+
+  {
+    "id": "Q5",
+    "topic": "Version Control",
+    "question": "What is the main benefit of using Git?",
+    "options": [
+      "Only one person can edit at a time",
+      "Track and manage changes over time",
+      "No need for backups",
+      "Code cannot be reviewed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git tracks changes, enables collaboration, and preserves project history."
+  },
+  {
+    "id": "Q6",
+    "topic": "Version Control",
+    "question": "What does a Git branch represent?",
+    "options": [
+      "A copy of the entire internet",
+      "A separate line of development",
+      "A deleted version of code",
+      "A required database"
+    ],
+    "answerIndex": 1,
+    "explanation": "Branches allow developers to work on features independently."
+  },
+  {
+    "id": "Q7",
+    "topic": "Version Control",
+    "question": "What is a Pull Request mainly used for?",
+    "options": [
+      "Running code",
+      "Reviewing and merging changes",
+      "Deleting commits",
+      "Encrypting repositories"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull Requests allow teams to review and discuss changes before merging."
+  },
+  {
+    "id": "Q8",
+    "topic": "Version Control",
+    "question": "Which command downloads changes from remote without merging?",
+    "options": [
+      "git push",
+      "git fetch",
+      "git commit",
+      "git init"
+    ],
+    "answerIndex": 1,
+    "explanation": "git fetch retrieves updates without modifying the working branch."
+  },
+
+  {
+    "id": "Q9",
+    "topic": "CI/CD",
+    "question": "What is the main goal of Continuous Integration?",
+    "options": [
+      "Deploy code automatically to production",
+      "Frequently integrate code into a shared repository",
+      "Eliminate testing",
+      "Remove version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI helps detect integration issues early by merging code frequently."
+  },
+  {
+    "id": "Q10",
+    "topic": "CI/CD",
+    "question": "Which activity is common in CI pipelines?",
+    "options": [
+      "Manual testing only",
+      "Automated builds and tests",
+      "No code review",
+      "Skipping deployments"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI pipelines usually run automated builds and tests on each push."
+  },
+  {
+    "id": "Q11",
+    "topic": "CI/CD",
+    "question": "Why are automated tests important in CI?",
+    "options": [
+      "They slow development",
+      "They detect bugs early",
+      "They replace monitoring",
+      "They remove collaboration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated tests catch bugs early, reducing cost and risk."
+  },
+  {
+    "id": "Q12",
+    "topic": "CI/CD",
+    "question": "What does CD stand for in DevOps?",
+    "options": [
+      "Code Deployment",
+      "Continuous Delivery or Continuous Deployment",
+      "Central Database",
+      "Critical Design"
+    ],
+    "answerIndex": 1,
+    "explanation": "CD refers to Continuous Delivery or Continuous Deployment."
+  },
+
+  {
+    "id": "Q13",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "options": [
+      "Manual server setup",
+      "Managing infrastructure using code",
+      "Only documentation",
+      "Disabling cloud resources"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC uses code to automate and manage infrastructure."
+  },
+  {
+    "id": "Q14",
+    "topic": "Infrastructure as Code",
+    "question": "A key benefit of Infrastructure as Code is:",
+    "options": [
+      "Random configurations",
+      "Repeatable environments",
+      "More manual effort",
+      "No version control"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC enables consistent and repeatable environments."
+  },
+  {
+    "id": "Q15",
+    "topic": "Infrastructure as Code",
+    "question": "Why should IaC files be version controlled?",
+    "options": [
+      "To track and review changes",
+      "To hide infrastructure",
+      "To disable automation",
+      "To delete history"
+    ],
+    "answerIndex": 0,
+    "explanation": "Version control improves traceability and rollback."
+  },
+  {
+    "id": "Q16",
+    "topic": "Infrastructure as Code",
+    "question": "Which practice best matches IaC?",
+    "options": [
+      "Clicking through cloud dashboards only",
+      "Manual setup per server",
+      "Automated provisioning using code",
+      "No automation allowed"
+    ],
+    "answerIndex": 2,
+    "explanation": "IaC relies on automation and reusable code templates."
+  },
+
+  {
+    "id": "Q17",
+    "topic": "Planning with DevOps",
+    "question": "Why are user stories useful?",
+    "options": [
+      "They reduce clarity",
+      "They describe requirements from the user perspective",
+      "They replace testing",
+      "They eliminate documentation"
+    ],
+    "answerIndex": 1,
+    "explanation": "User stories help teams focus on delivering user value."
+  },
+  {
+    "id": "Q18",
+    "topic": "Planning with DevOps",
+    "question": "What is the purpose of acceptance criteria?",
+    "options": [
+      "To define success conditions",
+      "To skip testing",
+      "To reduce collaboration",
+      "To increase scope"
+    ],
+    "answerIndex": 0,
+    "explanation": "Acceptance criteria define when a feature is considered complete."
+  },
+  {
+    "id": "Q19",
+    "topic": "Planning with DevOps",
+    "question": "Which planning approach aligns with DevOps?",
+    "options": [
+      "Large releases with no feedback",
+      "Small increments with frequent feedback",
+      "No backlog tracking",
+      "Avoiding retrospectives"
+    ],
+    "answerIndex": 1,
+    "explanation": "Small, frequent deliveries reduce risk and improve learning."
+  },
+  {
+    "id": "Q20",
+    "topic": "Planning with DevOps",
+    "question": "What is a benefit of breaking work into smaller tasks?",
+    "options": [
+      "Harder estimation",
+      "Faster feedback and lower risk",
+      "Less visibility",
+      "More deployment failures"
+    ],
+    "answerIndex": 1,
+    "explanation": "Smaller tasks are easier to track, test, and deliver."
+  }
+]
