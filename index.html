@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevOps Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>DevOps Quiz</h1>
+    <p class="sub">Pick a topic and answer one question at a time.</p>
+  </header>
+
+  <main class="card">
+    <section class="row">
+      <label for="topicSelect">Topic</label>
+      <select id="topicSelect">
+        <option value="">Loading topics...</option>
+      </select>
+      <button id="nextBtn" disabled>Next Question</button>
+    </section>
+
+    <section id="quizArea" class="quiz">
+      <h2 id="questionText">Select a topic to start</h2>
+      <div id="options"></div>
+
+      <div class="actions">
+        <button id="submitBtn" disabled>Submit</button>
+      </div>
+
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+      <div id="explanation" class="explain"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <small>Assignment 04 - Distributed Version Control with GitHub</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
