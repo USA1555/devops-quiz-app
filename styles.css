@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f6f6f6; }
+.top { padding: 16px; background: #111; color: #fff; }
+.sub { margin: 6px 0 0; opacity: 0.85; }
+.card { max-width: 900px; margin: 18px auto; background: #fff; padding: 16px; border-radius: 10px; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+label { font-weight: 600; }
+select, button { padding: 10px; }
+.quiz { margin-top: 14px; }
+#options { display: grid; gap: 10px; margin: 14px 0; }
+.option { padding: 12px; border: 1px solid #ddd; border-radius: 10px; background: #fafafa; cursor: pointer; }
+.option.selected { border-color: #111; }
+.actions { margin: 10px 0; }
+.feedback { font-weight: 700; margin-top: 10px; }
+.explain { margin-top: 6px; color: #333; }
+.foot { text-align: center; padding: 12px; color: #666; }
